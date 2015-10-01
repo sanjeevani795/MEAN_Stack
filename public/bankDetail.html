@@ -1,0 +1,13 @@
+<div class="detail" ng-controller="ifscDetailCtrl">
+    <div class="header">
+        <h1>Details for {{bankDetail.BANK}} : {{bankDetail.IFSC}}</h1>
+    </div>
+    <div >
+        <img class="banklogo" src="../images/DEUSTCHE BANK.png">
+        <div>{{bankDetail.BANK}}</div>
+        <div>{{bankDetail.ADDRESS}}</div>
+    </div>
+</div>
+<div>
+    <button class="navBtn" type="button" ng-click="goHome('/banks')">Back</button>
+</div>

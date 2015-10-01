@@ -1,0 +1,22 @@
+<div class="header">
+    <h1>IFSC codes for DEUSTCHE BANK : {{ifsc_model.length}}</h1>
+</div>
+<div>
+    Search: <input id="queryText" type="text" placeholder="Enter an IFSC code" ng-model="query" >
+</div>
+<div id="main">
+    <table>
+        <thead>
+        <tr>
+            <th>Bank</th>
+            <th>IFSC</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in (filteredItems = ifsc_model | filter:query)">
+            <td>{{item.BANK}}</td>
+            <td><a href="#/banks/{{item.IFSC}}" >{{item.IFSC}}</a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>

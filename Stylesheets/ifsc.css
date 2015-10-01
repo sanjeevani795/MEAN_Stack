@@ -1,0 +1,49 @@
+body {
+    margin: 2em;
+}
+.header{
+    font-weight: bold;
+}
+table {
+    border: 2px solid  #000;
+    width:400px;
+}
+th, td {
+    border-bottom: 1px solid #999;
+}
+th {
+    background: #ccc;
+}
+h1{
+    color: black;
+    clear:both;
+}
+.detail{
+    background-color: #f7f7f7;
+    color: #8a6d3b;
+    position: relative;
+    width: 60%;
+    border: 1px solid red;
+    font-size: medium;
+    padding: 1em;
+}
+
+.banklogo {
+    width:30px;
+    height:30px;
+    float:left;
+    padding: 0.5em;
+    margin-top: -5px;
+}
+
+.navBtn {
+    margin: 1em;
+    margin-left: 0;
+}
+
+#queryText {
+    margin-bottom: 0.5em;
+    color: green;
+    width: 210px;
+    height:1.5em;
+}
